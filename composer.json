@@ -1,0 +1,31 @@
+{
+    "name": "imanrjb/fullnode-api",
+    "description": "Cryptocurrency nodes API",
+    "keywords": [],
+    "license": "MIT",
+    "type": "library",
+    "require": {
+
+    },
+    "authors": [
+        {
+            "name": "Iman Rajabi",
+            "email": "iman.rjb@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "FullNodeApi\\": "src/"
+        }
+    },
+    "config": {
+        "platform-check": false
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "FullNodeApi\\Src\\FullNodeApiServiceProvider"
+            ]
+        }
+    }
+}
